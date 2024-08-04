@@ -1,13 +1,5 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCdrb4529dvRkjkujqjCFtkFcnn0hLBncU",
-//   authDomain: "pantry-tracker-app-ce2d4.firebaseapp.com",
-//   projectId: "pantry-tracker-app-ce2d4",
-//   storageBucket: "pantry-tracker-app-ce2d4.appspot.com",
-//   messagingSenderId: "504840144002",
-//   appId: "1:504840144002:web:8bf11af3339d97f99e609b"
-//   };
 
 const firebaseConfig = {
 	apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
